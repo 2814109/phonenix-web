@@ -18,6 +18,7 @@ defmodule HelloWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :home
+    get "/users", UserController, :index
     #resources "/users", UserController, except: [:new, :edit]
   end
 
