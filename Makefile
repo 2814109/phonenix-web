@@ -1,0 +1,2 @@
+up:
+	mix phx.server
