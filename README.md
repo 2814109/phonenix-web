@@ -19,10 +19,6 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
 
 # command
 
-We are almost there! The following steps are missing:
-
-    $ cd hello
-
 Then configure your database in config/dev.exs and run:
 
     $ mix ecto.create
