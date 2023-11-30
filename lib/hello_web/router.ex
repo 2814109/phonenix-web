@@ -28,7 +28,7 @@ defmodule HelloWeb.Router do
   scope "/api", HelloWeb do
     pipe_through :api
     resources "/users", UserController, except: [:new, :edit]
-    resources "/tasks", TaskController, only: [:create, :index] # 追加
+    # resources "/tasks", TaskController, only: [:create, :index] # 追加
 
   end
 
